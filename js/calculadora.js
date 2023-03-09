@@ -6,12 +6,12 @@ function somar() {
   /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
   Em seguida, ao invés de mostrar o numero 10, mostre o resultado da operação */
   
+ 
   
   
   
   
-  
-  document.getElementById("resultadoSoma").innerHTML = 10;
+  document.getElementById("resultadoSoma").innerHTML = numero1 + numero2;
 }
 
 function subtrair() {
@@ -27,7 +27,7 @@ function subtrair() {
   
   
   
-  document.getElementById("resultadoSub").innerHTML = 9;
+  document.getElementById("resultadoSub").innerHTML = numero1 - numero2;
 }
 
 function multiplicar() {
@@ -41,7 +41,7 @@ function multiplicar() {
   
   
   
-  document.getElementById("resultadoMult").innerHTML = 5;
+  document.getElementById("resultadoMult").innerHTML = numero1*numero2;
 }
 
 function dividir() {
@@ -56,5 +56,5 @@ function dividir() {
   
   
   
-  document.getElementById("resultadoDiv").innerHTML = -89;
+  document.getElementById("resultadoDiv").innerHTML = numero1/numero2;
 }
